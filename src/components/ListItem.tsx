@@ -3,7 +3,6 @@ import {TouchableOpacity, View, Text} from 'react-native';
 import {Breed} from '../context/DogBreedProvider';
 
 const ListItem = ({item, onPress}: {item: Breed; onPress: () => void}) => {
-  console.log(`ListItem: ${item.name} ${item.subbreeds?.length}`);
   return (
     <TouchableOpacity
       key={item.name}
