@@ -1,4 +1,4 @@
-# TODO List app
+# Dog breed app List app
 
 Dog breed list app built with React Native
 
